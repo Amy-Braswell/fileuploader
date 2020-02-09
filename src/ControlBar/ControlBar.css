@@ -1,0 +1,13 @@
+.ControlBar {
+    display: flex;
+    width: 30%;
+    margin-top: 10px;
+    margin-left: 91%;
+}
+
+.ControlBar__btn {
+    padding: 5px;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    color: #777;
+}

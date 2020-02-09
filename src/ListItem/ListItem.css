@@ -1,0 +1,49 @@
+.ListItem {
+    display: flex;
+    flex-direction: row;
+    align-items: ;
+    width: 100%;
+    border: 1px solid #aaa;
+    padding: 15px;
+}
+
+.ListItem__content{
+    flex-grow: 8;
+    flex-shrink: 8;
+    padding: 0 3%;
+}
+
+.ListItem__circle {
+border: 1px solid #777;
+border-radius: 50%;
+padding: 13px 17px;
+flex-grow: 1;
+flex-shrink: 1; 
+}
+
+.ListItem__icon{
+    color: #aaa; 
+}
+
+.ListItem__title {
+    display: inline;
+    float: left;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.ListItem__size {
+    display: inline;
+    float: right;
+}
+
+.ListItem__actions {
+    margin-top: 30px;
+}
+
+.ListItem__status {
+    display: inline;
+    float: left;
+    color: #4cc8e3;
+    margin-top: 5px;
+}

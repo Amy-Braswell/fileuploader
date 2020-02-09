@@ -1,0 +1,24 @@
+.SearchBar {
+    background-color: #ccc;
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    border: 1px solid #aaa;
+}
+
+.SearchBar__heading  {
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: 0 1.5px;
+
+}
+
+.SearchBar h1 {
+    font-size: 2.5em;
+}
+
+.SearchBar__controls {
+    flex-grow: 2;
+    flex-shrink: 2;
+    padding: 0 1.5px;
+}
