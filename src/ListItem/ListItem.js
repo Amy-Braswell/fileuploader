@@ -39,7 +39,7 @@ class ListItem extends Component {
           </div>
         </div>
       </div>
-    );
+    )
   }
 }
 
