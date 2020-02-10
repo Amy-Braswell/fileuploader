@@ -1,7 +1,7 @@
-import React, { Component } from 'react'
-import './SearchBar.css'
-import SearchBox from '../SearchBox/SearchBox'
-import FilterOptions from '../FilterOptions/FilterOptions'
+import React, { Component } from 'react';
+import './SearchBar.css';
+import SearchBox from '../SearchBox/SearchBox';
+import FilterOptions from '../FilterOptions/FilterOptions';
 
 class SearchBar extends Component {
   render() {
@@ -11,12 +11,12 @@ class SearchBar extends Component {
           <h1>File Uploader</h1>
         </div>
         <div className="SearchBar__controls">
-          <SearchBox/>
-          <FilterOptions/>
+          <SearchBox searchTerm={this.props.searchTerm} />
+          <FilterOptions filterOption={this.props.filterOption} />
         </div>
       </div>
     );
   }
 }
 
-export default SearchBar
+export default SearchBar;
