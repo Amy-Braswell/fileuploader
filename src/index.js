@@ -1,7 +1,7 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import './index.css'
+import App from './App'
 
 const FILES = [
   {"fileType":"jpg","size":"4.3MB","name":"me on skis.jpg","status":"Synced"},
@@ -10,4 +10,4 @@ const FILES = [
   {"fileType":"mp3","size":"3.4MB","name":"disturbed_sound_of_silence.mp3","status":"New"},
 ];
 
-ReactDOM.render(<App files={FILES}/>, document.getElementById('root'));
+ReactDOM.render(<App files={FILES}/>, document.getElementById('root'))
